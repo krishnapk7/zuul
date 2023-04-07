@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Strength
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "Secret\ Chambers"\ application.\r\n\ \r\n\ A\ strength\ class\ is\ used\ to\ organise\ the\ health\ and\ damage\ systems\ of\ the\ player\r\n\ and\ all\ enemies.\ It\ updates\ the\ health\ and\ damage\ of\ the\ entities\ by\ taking\ in\r\n\ appropriate\ integers.\r\n\r\n\ @author\ Krishna\ Prasanna\ Kumar\ (K21004839)\r\n\ @version\ 02/12/2021\r\n
+comment1.params=currentHealth\ damage
+comment1.target=Strength(int,\ int)
+comment1.text=\r\n\ Creates\ the\ Strength\ object\ by\ taking\ in\ the\ initial\ health\ and\ the\ initial\r\n\ damage.\r\n\ @param\ currentHealth\ The\ starting\ health\ as\ an\ integer.\r\n\ @param\ damage\ The\ starting\ damage\ as\ an\ integer.\r\n
+comment2.params=newDamage
+comment2.target=void\ setDamage(int)
+comment2.text=\r\n\ Sets\ the\ new\ damage\r\n\ @param\ newDamage\ The\ new\ damage\ as\ an\ integer.\r\n
+comment3.params=newDamage
+comment3.target=void\ gainDamage(int)
+comment3.text=\r\n\ Gains\ damage\ by\ adding\ on\ the\ extra\ damage\ to\ the\ existing\ damage.\r\n\ @param\ newDamage\ The\ additional\ damage\ that\ is\ to\ be\ added\ on\ the\ existing\r\n\ damage.\r\n
+comment4.params=takenDamage
+comment4.target=void\ loseHealth(int)
+comment4.text=\r\n\ Subtracts\ health\ from\ the\ current\ Health\r\n\ @param\ takenDamage\ Damage\ taken\ as\ an\ integer.\r\n
+comment5.params=health
+comment5.target=void\ gainHealth(int)
+comment5.text=\r\n\ Adds\ health\ to\ the\ current\ health\ if\ it\ is\ below\ the\ max\ health.\r\n\ @param\ health\ The\ health\ to\ be\ added\ as\ an\ integer.\r\n
+comment6.params=
+comment6.target=int\ getCurrentHealth()
+comment6.text=\r\n\ Accessor\ Method\r\n\ @return\ currentHealth\ The\ current\ health\r\n
+comment7.params=
+comment7.target=int\ getDamage()
+comment7.text=\r\n\ Accessor\ Method\r\n\ @return\ damage\ The\ current\ Damage\r\n
+numComments=8

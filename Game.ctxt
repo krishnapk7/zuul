@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ \ This\ class\ is\ the\ class\ that\ runs\ the\ "Secret\ Chambers"\ application.\ \r\n\ \r\n\ \ To\ play\ this\ game,\ call\ the\ main\ method\ on\ the\ game\ class\ or\ create\ an\ instance\ of\ this\ class\ and\ call\ the\ "play"\r\n\ \ method.\r\n\ \r\n\ This\ class\ contains\ the\ main\ while\ loop\ that\ checks\ whether\ the\ game\ should\ continue\ running.\r\n\ \r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling,\ David\ J.\ Barnes\ and\ Krishna\ Prasanna\ Kumar(K21004839)\r\n\ @version\ 02/12/2021\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Runs\ the\ game\ without\ the\ need\ of\ creating\ the\ game\ object.\r\n
+comment2.params=
+comment2.target=Game()
+comment2.text=\r\n\ Create\ the\ world\ by\ creating\ the\ world\ and\ the\ objects\ in\ the\ world.\r\n
+comment3.params=
+comment3.target=void\ play()
+comment3.text=\r\n\ \ Main\ play\ routine.\ \ Loops\ until\ end\ of\ play.\r\n\ \ Prints\ the\ Welcome\ message\ and\ the\ goodbye\ message.\r\n
+comment4.params=
+comment4.target=void\ printWelcome()
+comment4.text=\r\n\ Print\ out\ the\ opening\ message\ for\ the\ player.\r\n
+numComments=5

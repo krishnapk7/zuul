@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "Secret\ Chambers"\ application.\r\n\ \r\n\ This\ class\ is\ a\ sub\ class\ of\ the\ Room\ class\ and\ inherits\ its\ methods.\ The\ transporter\r\n\ room\ is\ different\ to\ the\ other\ rooms,\ when\ the\ player\ inputs\ transport\ while\r\n\ inside\ the\ transporter\ room\ they\ will\ be\ transported\ to\ a\ random\ room.\r\n\r\n\ @author\ Krishna\ Prasanna\ Kumar\ (K21004839)\r\n\ @version\ 02/12/2021\r\n
+comment1.params=shortDescription\ longDescription
+comment1.target=TransporterRoom(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Creates\ the\ Transporter\ Room\ by\ taking\ in\ the\ same\ parameters\ as\ the\ Room\r\n\ class\ constructor.\r\n\ @param\ shortDescription\r\n\ @param\ longDescription\r\n
+comment2.params=
+comment2.target=boolean\ isTransporter()
+comment2.text=\r\n\ Overriding\ the\ superclass\ method,\ returns\ true\ if\ the\ room\ is\ the\ Transporter\r\n\ room\ and\ is\ called\ from\ this\ class.\r\n
+comment3.params=allRooms
+comment3.target=Room\ findRandomRoom(java.util.ArrayList)
+comment3.text=\r\n\ Calls\ the\ RoomRandomiser\ method\ and\ obtains\ a\ Random\ room\ which\ the\ player\r\n\ can\ be\ transported\ to.\r\n
+numComments=4

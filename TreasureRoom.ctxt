@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TreasureRoom
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "Secret\ Chambers"\ application\r\n\ This\ class\ is\ a\ sub\ class\ of\ the\ Room\ class\ and\ inherits\ its\ methods.\ This\ class\r\n\ creates\ the\ treasure\ rooms\ and\ is\ one\ way\ that\ the\ player\ can\ end\ the\ game\ by\ \r\n\ entering\ either\ treasure\ room.\r\n\r\n\ @author\ Krishna\ Prasanna\ Kumar\ (K21004839)\r\n\ @version\ 02/12/2021\r\n
+comment1.params=shortDescription\ longDescription
+comment1.target=TreasureRoom(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Creates\ the\ Treasure\ Rooms\ with\ the\ same\ parameters\ as\ the\ Room\ class\r\n\ @param\ shortDescription\r\n\ @param\ longDescription\r\n
+comment2.params=
+comment2.target=boolean\ isTreasureRoom()
+comment2.text=\r\n\ Accessor\ Method\r\n\ Overriding\ the\ method\ in\ the\ room\ class.\r\n\ Returns\ true\ if\ the\ room\ is\ a\ treasure\ room\ and\ is\ called\ from\ this\ class.\r\n
+comment3.params=sentence
+comment3.target=void\ endSpeech(java.lang.String)
+comment3.text=\r\n\ Sets\ the\ ending\ speech\r\n\ @param\ sentence\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSpeech()
+comment4.text=\r\n\ Accessor\ Method\r\n\ @return\ ending\ The\ ending\ speech\ as\ a\ String.\r\n
+numComments=5

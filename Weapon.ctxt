@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Weapon
+comment0.text=\r\n\ The\ Weapon\ class\ is\ a\ sub\ class\ of\ the\ Item\ class,\ it\ inherits\ the\ Item\ classes\ methods.\r\n\ This\ class\ takes\ in\ the\ weapon's\ damage\ as\ a\ parameter\ so\ it\ can\ stored\ separately\r\n\ from\ other\ items\ that\ are\ not\ weapons.\r\n\r\n\ @author\ Krishna\ Prasanna\ Kumar\ (K21004839)\r\n\ @version\ 02/12/2021\r\n
+comment1.params=name\ weight\ description\ damage
+comment1.target=Weapon(java.lang.String,\ int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Creates\ the\ weapon\ by\ taking\ in\ the\ same\ parameters\ that\ the\ Item\ class\ took\r\n\ but\ added\ damage\ as\ well.\r\n
+comment2.params=
+comment2.target=int\ getWeaponDamage()
+comment2.text=\r\n\ Accessor\ Method\r\n\ @return\ damage\ The\ damage\ of\ the\ weapon\ as\ an\ intenger\r\n
+comment3.params=
+comment3.target=boolean\ isItemWeapon()
+comment3.text=\r\n\ Overriding\ the\ superclass,\ checks\ if\ the\ item\ is\ a\ weapon.\r\n\ Returns\ true\ if\ the\ method\ is\ called\ from\ here.\r\n
+numComments=4

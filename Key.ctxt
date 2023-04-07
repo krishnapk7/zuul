@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Key
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "Secret\ Chambers"\ application.\r\n\ This\ class\ is\ a\ sub\ class\ of\ the\ Item\ class,\ it\ inherits\ its\ methods.\r\n\ It\ is\ used\ to\ create\ a\ Key\ which\ is\ specific\ to\ doors\ that\ have\ been\ created\ in\ the\ game.\r\n\r\n\ @author\ Krishna\ Prasanna\ Kumar\ (K21004839)\r\n\ @version\ 02/12/2021\r\n
+comment1.params=name\ weight\ description\ firstRoom
+comment1.target=Key(java.lang.String,\ int,\ java.lang.String,\ Room)
+comment1.text=\r\n\ Creates\ the\ Key\ by\ taking\ in\ the\ same\ parameters\ as\ the\ Item\ class\r\n\ but\ also\ takes\ the\ firstRoom\ as\ a\ parameter.\r\n\ @param\ name\r\n\ @param\ weight\r\n\ @param\ description\r\n\ @param\ firstRoom\r\n
+comment2.params=
+comment2.target=Room\ getFirstRoom()
+comment2.text=\r\n\ Accessor\ Method\r\n\ @return\ firstRoom\ The\ room\ that\ the\ key\ works\ in\r\n
+comment3.params=
+comment3.target=boolean\ isItemKey()
+comment3.text=\r\n\ Method\ that\ overrides\ the\ method\ in\ the\ Item\ class\r\n\ Return\ true\ if\ it\ is\ a\ key\ and\ is\ called\ from\ this\ class.\r\n
+numComments=4

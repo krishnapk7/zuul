@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "Secret\ Chambers"\ application.\r\n\ \r\n\ A\ door\ will\ only\ be\ created\ between\ two\ rooms\ when\ it\ is\ specified\ in\ the\ createRooms\r\n\ method\ in\ the\ world\ class.\r\n\r\n\ @author\ Krishna\ Prasanna\ Kumar\ (K21004839)\r\n\ @version\ 02/12/2021\r\n
+comment1.params=secondRoom\ direction
+comment1.target=Door(Room,\ java.lang.String)
+comment1.text=\r\n\ Creates\ the\ door\r\n\ @param\ secondRoom\r\n\ @param\ direction\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDirection()
+comment2.text=\r\n\ Accessor\ Method\r\n\ @return\ The\ direction\ of\ the\ door\r\n
+comment3.params=
+comment3.target=Room\ getSecondRoom()
+comment3.text=\r\n\ Accessor\ Method\r\n\ @return\ The\ Room\ that\ will\ be\ opened\ when\ the\ door\ is\ unlocked.\r\n
+numComments=4

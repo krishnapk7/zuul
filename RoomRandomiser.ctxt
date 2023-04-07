@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RoomRandomiser
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "Secret\ Chambers"\ application.\r\n\ The\ RoomRandomiser\ class\ is\ designed\ to\ return\ a\ random\ room\ when\ the\ player\ enters\r\n\ the\ transporter\ room\ and\ is\ willing\ to\ transport\ somewhere.\r\n\r\n\ @author\ Krishna\ Prasanna\ Kumar\ (K21004839)\r\n\ @version\ 02/12/2021\r\n
+comment1.params=
+comment1.target=RoomRandomiser()
+comment1.text=\r\n\ Creates\ the\ RoomRandomiser\ by\ initialising\ the\ Random\ object.\r\n
+comment2.params=allRooms
+comment2.target=Room\ getRandomRoom(java.util.ArrayList)
+comment2.text=\r\n\ Returns\ a\ random\ room\ by\ taking\ in\ an\ ArrayList\ of\ all\ the\ rooms\ except\r\n\ from\ the\ transporter\ room\ and\ the\ treasure\ rooms.\r\n
+numComments=3
